@@ -1,0 +1,100 @@
+body {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 16px;
+  /*word-spacing: 1px;*/
+  -ms-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-font-smoothing: antialiased;
+  box-sizing: border-box;
+}
+
+*, *:before, *:after {
+  box-sizing: border-box;
+  margin: 0;
+}
+
+.button {
+  display: inline-block;
+  border-radius: 4px;
+  text-decoration: none;
+  padding: 10px 30px;
+}
+
+.button-green {
+  border: 1px solid rgb(74, 182, 148);
+  color: rgb(74, 182, 148);
+}
+
+.button-green:hover {
+  color: #fff;
+  background-color: rgb(74, 182, 148);
+}
+
+.button-grey {
+  border: 1px solid #35495e;
+  color: #35495e;
+}
+
+.button-grey:hover {
+  color: #fff;
+  background-color: #35495e;
+}
+
+.button-purple {
+  border: 1px solid rgb(101, 63, 146);
+  color: rgb(101, 63, 146);
+}
+
+.button-purple:hover {
+  color: #fff;
+  background-color: rgb(101, 63, 146);
+}
+
+.button-teal {
+  border: 1px solid rgb(28, 172, 172);
+  color: rgb(28, 172, 172);
+}
+
+.button-teal:hover {
+  color: #fff;
+  background-color: rgb(28, 172, 172);
+}
+
+.container {
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.title {
+  font-family: 'Dancing Script', cursive;
+  display: block;
+  font-weight: 300;
+  font-size: 100px;
+  color: #35495e;
+  letter-spacing: 1px;
+}
+
+.subtitle {
+  font-weight: 300;
+  font-size: 42px;
+  color: #526488;
+  padding-bottom: 15px;
+}
+
+.links {
+  padding-top: 15px;
+}
+
+.teal {
+  color: rgb(28, 172, 172);
+}
+.purple {
+  color: rgb(101, 63, 146);
+}
+.green {
+  color: rgb(74, 182, 148);
+}
