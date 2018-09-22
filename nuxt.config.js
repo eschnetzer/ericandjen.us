@@ -21,8 +21,8 @@ module.exports = {
   ** Customize the progress bar color
   */
   loading: { color: '#3B8070' },
-  modules: [
-    'moment'
+  plugins: [
+    { src: '~/plugins/moment.js' }
   ],
   /*
   ** Build configuration
@@ -40,8 +40,7 @@ module.exports = {
           exclude: /(node_modules)/
         })
       }
-    },
-    vendor: ['moment']
+    }
   }
 }
 
