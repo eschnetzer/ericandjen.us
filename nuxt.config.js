@@ -22,7 +22,9 @@ module.exports = {
   */
   loading: { color: '#3B8070' },
   plugins: [
-    { src: '~/plugins/moment.js' }
+    { src: '~/plugins/fontawesome.js' },
+    { src: '~/plugins/moment.js' },
+    { src: '~/plugins/vueper-slides.js' }
   ],
   /*
   ** Build configuration
