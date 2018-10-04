@@ -27,6 +27,11 @@ module.exports = {
     { src: '~/plugins/moment.js' },
     { src: '~/plugins/vueper-slides.js' }
   ],
+  modules: [
+    ['@nuxtjs/google-analytics', {
+      id: 'UA-126963860-1'
+    }]
+  ],
   /*
   ** Build configuration
   */
