@@ -1,10 +1,10 @@
 <template>
   <section class="container">
     <div class="content">
-      <h2 class="subtitle">
+      <h2 class="subtitle alignCenter divider">
         {{ headerTitle }}
       </h2>
-      <h3>
+      <h3 class="alignCenter">
         Come back soon.
       </h3>
     </div>

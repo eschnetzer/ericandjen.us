@@ -22,42 +22,42 @@ body {
   padding: 10px 30px;
 }
 
-.button-green {
+.buttonGreen {
   border: 1px solid rgb(74, 182, 148);
   color: rgb(74, 182, 148);
 }
 
-.button-green:hover {
+.buttonGreen:hover {
   color: #fff;
   background-color: rgb(74, 182, 148);
 }
 
-.button-grey {
+.buttonGrey {
   border: 1px solid #35495e;
   color: #35495e;
 }
 
-.button-grey:hover {
+.buttonGrey:hover {
   color: #fff;
   background-color: #35495e;
 }
 
-.button-purple {
+.buttonPurple {
   border: 1px solid rgb(101, 63, 146);
   color: rgb(101, 63, 146);
 }
 
-.button-purple:hover {
+.buttonPurple:hover {
   color: #fff;
   background-color: rgb(101, 63, 146);
 }
 
-.button-teal {
+.buttonTeal {
   border: 1px solid rgb(28, 172, 172);
   color: rgb(28, 172, 172);
 }
 
-.button-teal:hover {
+.buttonTeal:hover {
   color: #fff;
   background-color: rgb(28, 172, 172);
 }
@@ -73,7 +73,21 @@ nav {
 }
 .content {
   margin: 0 auto;
-  max-width: 1100px;
+  max-width: 1011px;
+  background: #FFF;
+  padding-bottom: 30px;
+  border: 1px solid #CCC;
+}
+.divider {
+  clear: both;
+  margin: 20px auto;
+  max-width: 1011px;
+  padding: 20px 0;
+}
+.horizontalRule {
+  background: #CCC;
+  height: 1px;
+  width: 100%;
 }
 .title {
   font-family: 'Dancing Script', cursive;
@@ -91,10 +105,9 @@ nav {
   padding: 10px;
 }
 nav a {
-  /*border-right: 1px solid #DDD;*/
   color: #AAA;
   display: inline-block;
-  padding: 10px;
+  padding: 10px 25px;
   text-align: center;
   text-decoration: none;
 }
@@ -110,26 +123,24 @@ h2 {
   font-weight: 300;
   font-size: 42px;
   color: #AAA;
-  padding-bottom: 15px;
-  text-align: center;
 }
 h3 {
   font-weight: 300;
   font-size: 24px;
   color: #AAA;
-  padding-top: 15px;
-  text-align: center;
 }
 h4 {
   font-weight: 300;
   font-size: 20px;
   color: #AAA;
-  text-align: center;
 }
 h5 {
   font-weight: 300;
   font-size: 16px;
   color: #AAA;
+}
+
+.alignCenter {
   text-align: center;
 }
 
@@ -183,29 +194,48 @@ h5 {
   line-height: 80%;
 }
 
-/* Home */
+.leftAligned .bspotImage {
+  float: left;
+}
+.rightAligned .bspotImage {
+  float: right;
+}
+
 .bspot {
-  display: inline-block;
-  text-align: center;
-  width: 300px;
+  clear: both;
+  margin: 10px;
 }
 .bspot img {
   max-width: 200px;
 }
+.bspotImage {
+  display: inline-block;
+  text-align: center;
+  width: 30%;
+}
+.bspotContent {
+  display: inline-block;
+  font-size: 20px;
+  padding: 20px 40px;
+  width: 70%;
+}
+.rightAligned {
+
+}
 
 /* The Wedding Party */
-.party-members {
+.partyMembers {
   margin: 0 auto;
   text-align: center;
 }
-.party-member {
+.partyMember {
   display: inline-block;
   width: 200px
 }
 
 /* Registry */
 .registries {
-  margin: 50px auto;
+  margin: 50px auto 0;
   text-align: center;
 }
 .registry {

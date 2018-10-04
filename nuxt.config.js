@@ -3,11 +3,12 @@ module.exports = {
   ** Headers of the page
   */
   head: {
-    title: 'Eric Schnetzer and Jennifer Cain | July 20, 2019',
+    title: 'Jennifer Cain and Eric Schnetzer | July 20, 2019',
     meta: [
       { charset: 'utf-8' },
       { name: 'viewport', content: 'width=device-width, initial-scale=1' },
-      { hid: 'description', name: 'description', content: 'The wedding of Eric Schnetzer and Jennifer Cain' }
+      { hid: 'description', name: 'description', content: 'The wedding of Jennifer Cain and Eric Schnetzer' },
+      { name: 'google-site-verification', content: 'Bu31_Jp5FIz4DwBJnt3GCbzf3sU6jeLWanFtRmwsqsc' }
     ],
     link: [
       { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' },
@@ -20,7 +21,7 @@ module.exports = {
   /*
   ** Customize the progress bar color
   */
-  loading: { color: '#3B8070' },
+  loading: { color: 'rgb(28, 172, 172)' },
   plugins: [
     { src: '~/plugins/fontawesome.js' },
     { src: '~/plugins/moment.js' },
