@@ -30,17 +30,17 @@ export default {
       registries: [
         {
           url: `https://www.amazon.com/wedding/jennifer-cain-eric-schnetzer-wolfeboro-july-2019/registry/1RHIG1XFMDDPM`,
-          image: `https://s3.amazonaws.com/eschnetzer/images/amazon.png`,
+          image: `https://s3.amazonaws.com/eschnetzer/images/amazon-inverse.png`,
           name: `Amazon`
         },
         {
           url: `https://www.bedbathandbeyond.com:443/store/giftregistry/view_registry_guest.jsp?registryId=546523010&eventType=Wedding`,
-          image: `https://s3.amazonaws.com/eschnetzer/images/bed-bath-beyond.png`,
+          image: `https://s3.amazonaws.com/eschnetzer/images/bed-bath-beyond-inverse.png`,
           name: `Bed, Bath, and Beyond`
         },
         {
           url: `https://www.macys.com/wgl/registry/guest/6977854`,
-          image: `https://s3.amazonaws.com/eschnetzer/images/macys.png`,
+          image: `https://s3.amazonaws.com/eschnetzer/images/macys-inverse.png`,
           name: `Macy's`
         }
       ]

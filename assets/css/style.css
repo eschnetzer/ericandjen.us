@@ -1,6 +1,8 @@
 body {
-  background-image: url('https://s3.amazonaws.com/eschnetzer/images/birch-trees-3840x2160.png');
+  background-color: #000;
+  background-image: url('https://s3.amazonaws.com/eschnetzer/images/fireworks.jpg');
   background-size: cover;
+  color: #FFF;
   font-family: 'Montserrat', sans-serif;
   font-size: 16px;
   -ms-text-size-adjust: 100%;
@@ -22,14 +24,14 @@ body {
   padding: 10px 30px;
 }
 
-.buttonGreen {
-  border: 1px solid rgb(74, 182, 148);
-  color: rgb(74, 182, 148);
+.buttonDefault {
+  border: 1px solid #FFF;
+  color: #FFF;
 }
 
-.buttonGreen:hover {
-  color: #fff;
-  background-color: rgb(74, 182, 148);
+.buttonDefault:hover {
+  color: #000;
+  background-color: #FFF;
 }
 
 .buttonGrey {
@@ -42,26 +44,6 @@ body {
   background-color: #35495e;
 }
 
-.buttonPurple {
-  border: 1px solid rgb(101, 63, 146);
-  color: rgb(101, 63, 146);
-}
-
-.buttonPurple:hover {
-  color: #fff;
-  background-color: rgb(101, 63, 146);
-}
-
-.buttonTeal {
-  border: 1px solid rgb(28, 172, 172);
-  color: rgb(28, 172, 172);
-}
-
-.buttonTeal:hover {
-  color: #fff;
-  background-color: rgb(28, 172, 172);
-}
-
 header,
 section,
 nav {
@@ -71,12 +53,18 @@ nav {
 .vueperslides__track {
   max-height: 279px;
 }
+.container {
+  background: radial-gradient(ellipse at top, rgba(255,50,50,1) 0%,rgba(186,60,52,0.3) 0%, rgba(253,255,137,0) 50%);
+  border-top: 1px solid rgba(186,60,52,0.9);
+  padding: 30px 0;
+}
 .content {
+  background: rgba(0,0,0,0.667);
+  border: 1px solid #333;
   margin: 0 auto;
   max-width: 1011px;
-  background: #FFF;
   padding-bottom: 30px;
-  border: 1px solid #CCC;
+  text-align: center;
 }
 .divider {
   clear: both;
@@ -85,27 +73,34 @@ nav {
   padding: 20px 0;
 }
 .horizontalRule {
-  background: #CCC;
+  background: #333;
   height: 1px;
   width: 100%;
 }
 .title {
+  background: radial-gradient(ellipse at bottom, rgba(255,50,50,1) 0%,rgba(255,50,50,0.3) 0%, rgba(253,255,137,0) 50%);
+  border-bottom: 1px solid rgba(186,60,52,0.9);
   font-family: 'Dancing Script', cursive;
+  font-size: 100px;
   font-weight: 300;
-  font-size: 60px;
   letter-spacing: 1px;
   text-align: center;
+  text-shadow: -4px -4px 10px rgba(186, 60, 52, 0.9),
+                4px -4px 10px rgba(186, 60, 52, 0.9),
+               -4px  4px 10px rgba(186, 60, 52, 0.9),
+                4px  4px 10px rgba(186, 60, 52, 0.9);
+  white-space: nowrap;
 }
 .title a {
-  color: rgb(28, 172, 172);
+  -webkit-text-stroke: 1px rgba(202, 222, 162, 1.0);
+  color: #FFF;
   text-decoration: none;
 }
 nav {
   text-align: center;
-  padding: 10px;
 }
 nav a {
-  color: #AAA;
+  color: #FFF;
   display: inline-block;
   padding: 10px 25px;
   text-align: center;
@@ -114,25 +109,38 @@ nav a {
 nav a:last-child {
   border: none;
 }
-nav a:hover,
-nav a.nuxt-link-active {
-  color: rgb(28, 172, 172)
+nav a:hover {
+  font-weight: bold;
+  background: radial-gradient(ellipse at center, rgba(255,50,50,1) 0%,rgba(255,50,50,0.3) 0%,rgba(253,255,137,0) 100%);
+  -webkit-text-stroke: 1px rgba(202, 222, 162, 0.2);
+}
+nav a.nuxt-link-active:not(.home) {
+  font-weight: bold;
+  background: rgba(255,50,50,0.3);
+  border-left: 1px solid rgba(255,50,50,0.3);
+  border-right: 1px solid rgba(255,50,50,0.3);
+  -webkit-text-stroke: 1px rgba(202, 222, 162, 0.2);
 }
 
 h2 {
   font-weight: 300;
   font-size: 42px;
-  color: #AAA;
+  color: #FFF;
+  padding-bottom: 15px;
+  text-align: center;
 }
 h3 {
   font-weight: 300;
   font-size: 24px;
-  color: #AAA;
+  color: #FFF;
+  padding-top: 15px;
+  text-align: center;
 }
 h4 {
   font-weight: 300;
   font-size: 20px;
-  color: #AAA;
+  color: #FFF;
+  text-align: center;
 }
 h5 {
   font-weight: 300;
@@ -148,16 +156,6 @@ h5 {
   padding-top: 15px;
 }
 
-.teal {
-  color: rgb(28, 172, 172);
-}
-.purple {
-  color: rgb(101, 63, 146);
-}
-.green {
-  color: rgb(74, 182, 148);
-}
-
 .daysLeft {
   position: fixed;
   top: 1%;
@@ -168,24 +166,25 @@ h5 {
 }
 
 .daysLeftCircle {
-  box-shadow: 5px 10px 50px #AAA;
-  color: #FFF;
-  font-weight: 900;
-  padding-top: 20%;
-  border: 5px solid rgba(213,235,251,1);
+  box-shadow: 0 10px 50px rgba(111, 150, 60,  0.7);
+  border-bottom: 1px solid rgba(111, 150, 60,  0.9);
   border-radius: 100px;
-  width: 100%;
+  border-top:    1px solid rgba(202, 222, 162, 0.9);
+  color: #FFF;
+  font-family: 'Dancing Script', cursive;
+  font-weight: 900;
   height: 100%;
-  background: rgb(235,241,246);
-  background: -moz-linear-gradient(top, rgba(235,241,246,1) 0%, rgba(171,211,238,1) 50%, rgba(137,195,235,1) 51%, rgba(213,235,251,1) 100%);
-  background: -webkit-linear-gradient(top, rgba(235,241,246,1) 0%,rgba(171,211,238,1) 50%,rgba(137,195,235,1) 51%,rgba(213,235,251,1) 100%);
-  background: linear-gradient(to bottom, rgba(235,241,246,1) 0%,rgba(171,211,238,1) 50%,rgba(137,195,235,1) 51%,rgba(213,235,251,1) 100%);
-  text-shadow: -2px -2px 0 rgba(137,195,235,.2),
-              2px -2px 0 rgba(137,195,235,.2),
-             -2px 2px 0 rgba(137,195,235,.2),
-              2px 2px 0 rgba(137,195,235,.2);
+  letter-spacing: 1px;
+  padding-top: 20%;
+  text-align: center;
+  text-shadow: -4px -4px 10px rgba(111, 150, 60, 0.9),
+                4px -4px 10px rgba(111, 150, 60, 0.9),
+               -4px  4px 10px rgba(111, 150, 60, 0.9),
+                4px  4px 10px rgba(111, 150, 60, 0.9);
+  width: 100%;
 }
 .daysLeftCircle .daysLeftNumber {
+  background: radial-gradient(ellipse at bottom, rgba(255,50,50,1) 0%,rgba(111,150,60,0.3) 0%, rgba(0,0,0,0) 50%);
   font-size: 3em;
   line-height: 90%;
 }
@@ -207,17 +206,6 @@ h5 {
 }
 .bspot img {
   max-width: 200px;
-}
-.bspotImage {
-  display: inline-block;
-  text-align: center;
-  width: 30%;
-}
-.bspotContent {
-  display: inline-block;
-  font-size: 20px;
-  padding: 20px 40px;
-  width: 70%;
 }
 .rightAligned {
 
@@ -244,8 +232,12 @@ h5 {
   height: 180px;
   text-align: center;
 }
+.registryImg {
+  display: inline-block;
+  height: 100px;
+}
 .registry img {
-  margin-bottom: 10px;
+  margin-bottom: 20px;
 }
 
 

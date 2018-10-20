@@ -21,7 +21,7 @@ module.exports = {
   /*
   ** Customize the progress bar color
   */
-  loading: { color: 'rgb(28, 172, 172)' },
+  loading: { color: 'rgb(253, 255, 137)' },
   plugins: [
     { src: '~/plugins/fontawesome.js' },
     { src: '~/plugins/moment.js' },
