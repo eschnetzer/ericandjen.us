@@ -1,9 +1,9 @@
 <template>
   <div class="registry">
-    <a target="_blank" :href="registry.url">
+    <a class="registryImg" target="_blank" :href="registry.url">
       <img :src="registry.image" :alt="registry.name">
     </a>
-    <a class="button buttonGreen" target="_blank" :href="registry.url">
+    <a class="button buttonDefault" target="_blank" :href="registry.url">
       View Registry
     </a>
   </div>

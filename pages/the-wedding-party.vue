@@ -48,7 +48,7 @@
             <h4 class="alignCenter">Nora Lynch</h4>
             <h5 class="alignCenter">Goddaughter</h5>
           </div>
-          <div class="partymember">
+          <div class="partymember divider">
             <h4 class="alignCenter">Brooklyn Cain</h4>
             <h5 class="alignCenter">Niece</h5>
           </div>

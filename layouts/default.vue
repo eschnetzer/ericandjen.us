@@ -11,7 +11,7 @@
       </div>
     </aside>
     <header>
-      <h1 class="title teal">
+      <h1 class="title">
         <nuxt-link to="/">eric and jen</nuxt-link>
       </h1>
       <nav>
@@ -25,6 +25,14 @@
       </nav>
     </header>
     <nuxt/>
+    <footer>
+      <nav>
+        <nuxt-link class="home" to="/">
+          <font-awesome-icon icon="home" />
+          Home
+        </nuxt-link>
+      </nav>
+    </footer>
   </div>
 </template>
 
