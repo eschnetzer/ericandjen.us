@@ -1,9 +1,7 @@
 <template>
   <section class="container">
     <div class="content">
-      <div class>
-        <img src="https://s3.amazonaws.com/eschnetzer/images/lakescape.jpg" alt="Jen and Eric on the Lake" />
-      </div>
+      <div class="aspot"></div>
       <div class="divider">
         <div class="when">
           <h2>The Wedding</h2>

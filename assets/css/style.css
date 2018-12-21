@@ -211,6 +211,16 @@ h5 {
 
 }
 
+/* Home */
+.aspot {
+  background-image: url('https://s3.amazonaws.com/eschnetzer/images/lakescape.jpg');
+  background-position: center;
+  background-size: cover;
+  height: 419px;
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
 /* The Wedding Party */
 .partyMembers {
   margin: 0 auto;
