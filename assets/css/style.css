@@ -18,8 +18,9 @@ body {
 }
 
 .button {
-  display: inline-block;
   border-radius: 4px;
+  display: inline-block;
+  margin: 0 10px 10px 10px;
   text-decoration: none;
   padding: 10px 30px;
 }
@@ -47,11 +48,6 @@ body {
 header,
 section,
 nav {
-}
-.vueperslides,
-.vueperslides__inner,
-.vueperslides__track {
-  max-height: 279px;
 }
 .container {
   background: radial-gradient(ellipse at top, rgba(255,50,50,1) 0%,rgba(186,60,52,0.3) 0%, rgba(253,255,137,0) 50%);
@@ -230,6 +226,8 @@ h5 {
   display: inline-block;
   width: 200px
 }
+
+/* Photos */
 
 /* Registry */
 .registries {

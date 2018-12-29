@@ -6,7 +6,10 @@ module.exports = {
     title: 'Jennifer Cain and Eric Schnetzer | July 20, 2019',
     meta: [
       { charset: 'utf-8' },
-      { name: 'viewport', content: 'width=device-width, initial-scale=1' },
+      {
+        name: 'viewport',
+        content: 'width=device-width, initial-scale=1'
+      },
       { hid: 'description', name: 'description', content: 'The wedding of Jennifer Cain and Eric Schnetzer' },
       { name: 'google-site-verification', content: 'Bu31_Jp5FIz4DwBJnt3GCbzf3sU6jeLWanFtRmwsqsc' }
     ],
@@ -19,7 +22,7 @@ module.exports = {
     ]
   },
   css: [
-      '@/assets/css/style.css'
+    '@/assets/css/style.css'
   ],
   /*
   ** Customize the progress bar color
@@ -28,7 +31,7 @@ module.exports = {
   plugins: [
     { src: '~/plugins/fontawesome.js' },
     { src: '~/plugins/moment.js' },
-    { src: '~/plugins/vueper-slides.js' }
+    { src: '~/plugins/vueper-slides.js', ssr: false }
   ],
   modules: [
     ['@nuxtjs/google-analytics', {
