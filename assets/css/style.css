@@ -228,6 +228,12 @@ h5 {
 }
 
 /* Photos */
+.photo {
+  background-position: top center;
+  background-size: cover;
+  display: inline-block;
+  margin: 0 2px;
+}
 
 /* Registry */
 .registries {

@@ -41,11 +41,9 @@
 import Vue from 'vue';
 import MomentPlugin from '../plugins/moment.js';
 import FontawesomePlugin from '../plugins/fontawesome.js';
-import VueperSlidesPlugin from '../plugins/vueper-slides.js';
-Vue.use(MomentPlugin, FontawesomePlugin, VueperSlidesPlugin);
+Vue.use(MomentPlugin, FontawesomePlugin);
 
 export default {
-  //components() { VueperSlides, VueperSlide },
   data() {
     let theDate = this.$moment("2019-07-20", "YYYY-MM-DD");
     let now = this.$moment();

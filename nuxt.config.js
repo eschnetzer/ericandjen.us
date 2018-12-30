@@ -30,8 +30,7 @@ module.exports = {
   loading: { color: 'rgb(253, 255, 137)' },
   plugins: [
     { src: '~/plugins/fontawesome.js' },
-    { src: '~/plugins/moment.js' },
-    { src: '~/plugins/vueper-slides.js', ssr: false }
+    { src: '~/plugins/moment.js' }
   ],
   modules: [
     ['@nuxtjs/google-analytics', {
