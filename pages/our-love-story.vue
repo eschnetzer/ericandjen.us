@@ -1,12 +1,28 @@
 <template>
   <section class="container">
-    <div class="content">
+    <div class="content our-love-story">
       <h2 class="subtitle alignCenter divider">
         {{ headerTitle }}
       </h2>
-      <h3 class="alignCenter">
-        Come back soon.
-      </h3>
+      <h3>The Beginning</h3>
+      <p>They first met in the fall of 2011 at a little bar in downtown Boston called An Tain, the most romantic place on Earth. Eric joined the Wet Willies and they started playing Inner Tube Water Polo together. It’s a vicious sport and Jen is a little bit competitive but luckily, they were on the same team. They had lots of fun together, both in and out of the pool, but Eric found himself stuck in the friend zone early on. That summer, they went on a harbor cruise with a bunch of friends to celebrate Jen’s birthday. Afterwards, they danced together in a fountain on the Greenway in downtown Boston and got soaking wet. It was a really fun night!</p>
+
+      <img src="https://s3.amazonaws.com/eschnetzer/images/fountain.jpg" alt="Dancing in the fountain" style="height: 300px">
+
+      &nbsp;&nbsp;
+
+      <img src="https://s3.amazonaws.com/eschnetzer/images/photobomb.jpg" alt="Photobomb" style="height: 300px">
+
+      <h3>The Courtship</h3>
+      <p>They continued to hang out on a regular basis. Eric thought they were going on dates and Jen thought they were just hanging out as friends. After some time had gone by, and some famous Hong Kong scorpion bowls were had, the friendship turned romantic.</p>
+
+      <h3>The Adventures</h3>
+      <p>Throughout the years, they have gone on countless adventures together. Some of their favorite past times include exploring new breweries, racing down ski mountains, sitting around a campfire, tailgating at country concerts, taking selfies by scenic waterfalls, going for boat rides on Lake Winnipesaukee, popping bottles of champagne, dancing to cover bands and travelling to new places.</p>
+
+      <h3>The Engagement</h3>
+      <p>Finally, on May 2nd, they got engaged.  Eric had just started a new job at Circle so he asked Jen to come downtown to celebrate. They stopped at Tiki Rock to grab some yummy polynesian drinks.  Ironically, Jen ordered a drink called Saturn and it said, “you’re gonna want to put a ring on it.” Little did she know that Eric had a diamond ring sitting in his pocket. Afterwards, they took a little stroll and stopped by the same fountain they had danced in years earlier.  It was under construction and surrounded by scaffolding but it had always been a special spot for them.  So, that’s where he dropped to a knee and proposed with Jen’s grandmother’s beautiful ring.  Afterwards, they went to White Bull Tavern and watched the Bruins lose a playoff game but Jen wasn’t worried about the game; she was too busy calling friends and family to tell them the good news. Now, it’s time to pop some champagne and celebrate.</p>
+
+      <img src="https://s3.amazonaws.com/eschnetzer/images/engaged.jpg" alt="Engaged at last!" style="height: 300px">
     </div>
   </section>
 </template>
