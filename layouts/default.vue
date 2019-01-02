@@ -15,7 +15,7 @@
         <nuxt-link to="/">eric and jen</nuxt-link>
       </h1>
       <nav>
-        <!-- <nuxt-link to="/our-love-story">Our Love Story</nuxt-link> -->
+        <nuxt-link to="/our-love-story">Our Love Story</nuxt-link>
         <!-- <nuxt-link to="/the-wedding-party">The Wedding Party</nuxt-link> -->
         <nuxt-link to="/schedule">Schedule</nuxt-link>
         <nuxt-link to="/photos">Photos</nuxt-link>
