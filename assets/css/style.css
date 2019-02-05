@@ -24,6 +24,9 @@ body {
   text-decoration: none;
   padding: 10px 30px;
 }
+.button:visited {
+  color: #FFF;
+}
 
 .buttonDefault {
   border: 1px solid #FFF;
@@ -87,7 +90,8 @@ nav {
                 4px  4px 10px rgba(186, 60, 52, 0.9);
   white-space: nowrap;
 }
-.title a {
+.title a,
+.title a:visited {
   -webkit-text-stroke: 1px rgba(202, 222, 162, 1.0);
   color: #FFF;
   text-decoration: none;
@@ -95,7 +99,8 @@ nav {
 nav {
   text-align: center;
 }
-nav a {
+nav a,
+nav a:visited {
   color: #FFF;
   display: inline-block;
   padding: 10px 25px;
@@ -142,6 +147,19 @@ h5 {
   font-weight: 300;
   font-size: 16px;
   color: #AAA;
+}
+p {
+  margin-bottom: 10px;
+}
+a {
+  color: rgb(28, 200, 200);
+  text-decoration: none;
+}
+a:hover {
+  color: rgb(28, 228, 228);
+}
+a:visited {
+  color: rgb(27, 136, 203);
 }
 
 .alignCenter {
