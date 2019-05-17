@@ -6,6 +6,36 @@
       </h2>
       <p>It’s summertime in the Lakes Region and it’s also Nascar race weekend so some places are considering it a holiday and may have a 2 to 3 night minimum. Airbnb or Homeaway are always good options to find unique places to stay.</p>
 
+      <p>We will provide transportation from the hotels in Wolfeboro to the wedding reception in Laconia and back at the end of the night on Saturday. Please let us know if you're interested in this service.</p>
+
+      <div>
+        <h3 class="alignCenter divider">
+          In Wolfeboro
+        </h3>
+
+        <h4 class="alignCenter">
+          <a href="https://lakewentworthinn.com/" target="_blank">
+            Lake Wentworth Inn
+          </a>
+        </h4>
+        <p>
+          We have a block of rooms available at this cute, newly-renovated motel. The rooms are completely brand new and are located on Lake Wentworth with beach access, a pool, and is pet friendly. Please let us know if you are interested in staying here to make sure you are offered one of the rooms in our block.
+        </p>
+
+        <br />
+
+        <h4 class="alignCenter">
+          <a href="https://www.crescentlakeinn.com/" target="_blank">
+            Crescent Lake Inn &amp; Suites
+          </a>
+        </h4>
+
+        <p>
+          Located in the beautiful Lake Winnipesaukee area in Wolfeboro, NH, Crescent Lake Inn &amp; Suites feature guest rooms situated on expansive lawns overlooking Crescent Lake.
+        </p>
+
+      </div>
+
       <div>
         <h3 class="alignCenter divider">
           In Laconia
@@ -54,33 +84,6 @@
           <a href="https://naswa.com/" target="_blank">
             The NASWA Resort
           </a>
-        </p>
-
-      </div>
-
-      <div>
-        <h3 class="alignCenter divider">
-          In Wolfeboro
-        </h3>
-
-
-        <h4 class="alignCenter">
-          Lake Wentworth Inn
-        </h4>
-        <p>
-          Formerly known as the Allen A Motor Inn, this motel was recently bought by new owners who are doing lots of renovations. The Grand Opening will be Memorial Day weekend and it has 42 rooms available at a reasonable price.  We are looking into getting a block of rooms so please let us know if you are interested in staying here.
-        </p>
-
-        <br />
-
-        <h4 class="alignCenter">
-          <a href="https://www.crescentlakeinn.com/" target="_blank">
-            Crescent Lake Inn &amp; Suites
-          </a>
-        </h4>
-
-        <p>
-          Located in the beautiful Lake Winnipesaukee area in Wolfeboro, NH, Crescent Lake Inn &amp; Suites feature guest rooms situated on expansive lawns overlooking Crescent Lake.
         </p>
 
       </div>
