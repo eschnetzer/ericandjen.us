@@ -2,12 +2,12 @@
   <div>
     <aside class="daysLeft">
       <div class="daysLeftCircle">
-        <span class="daysLeftNumber">
+        <div class="daysLeftNumber">
           {{ daysLeft }}
-        </span>
-        <span class="daysLeftText">
+        </div>
+        <div class="daysLeftText">
           days
-        </span>
+        </div>
       </div>
     </aside>
     <header>

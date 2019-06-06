@@ -1,9 +1,9 @@
 body {
   background-color: #000;
-  background-image: url('https://s3.amazonaws.com/eschnetzer/images/fireworks.jpg');
+  background-image: url("https://s3.amazonaws.com/eschnetzer/images/fireworks.jpg");
   background-size: cover;
-  color: #FFF;
-  font-family: 'Montserrat', sans-serif;
+  color: #fff;
+  font-family: "Montserrat", sans-serif;
   font-size: 16px;
   -ms-text-size-adjust: 100%;
   -webkit-text-size-adjust: 100%;
@@ -12,7 +12,9 @@ body {
   box-sizing: border-box;
 }
 
-*, *:before, *:after {
+*,
+*:before,
+*:after {
   box-sizing: border-box;
   margin: 0;
 }
@@ -25,17 +27,17 @@ body {
   padding: 10px 30px;
 }
 .button:visited {
-  color: #FFF;
+  color: #fff;
 }
 
 .buttonDefault {
-  border: 1px solid #FFF;
-  color: #FFF;
+  border: 1px solid #fff;
+  color: #fff;
 }
 
 .buttonDefault:hover {
   color: #000;
-  background-color: #FFF;
+  background-color: #fff;
 }
 
 .buttonGrey {
@@ -53,12 +55,17 @@ section,
 nav {
 }
 .container {
-  background: radial-gradient(ellipse at top, rgba(255,50,50,1) 0%,rgba(186,60,52,0.3) 0%, rgba(253,255,137,0) 50%);
-  border-top: 1px solid rgba(186,60,52,0.9);
+  background: radial-gradient(
+    ellipse at top,
+    rgba(255, 50, 50, 1) 0%,
+    rgba(186, 60, 52, 0.3) 0%,
+    rgba(253, 255, 137, 0) 50%
+  );
+  border-top: 1px solid rgba(186, 60, 52, 0.9);
   padding: 30px 0;
 }
 .content {
-  background: rgba(0,0,0,0.667);
+  background: rgba(0, 0, 0, 0.667);
   border: 1px solid #333;
   margin: 0 auto;
   max-width: 1011px;
@@ -77,23 +84,27 @@ nav {
   width: 100%;
 }
 .title {
-  background: radial-gradient(ellipse at bottom, rgba(255,50,50,1) 0%,rgba(255,50,50,0.3) 0%, rgba(253,255,137,0) 50%);
-  border-bottom: 1px solid rgba(186,60,52,0.9);
-  font-family: 'Dancing Script', cursive;
+  background: radial-gradient(
+    ellipse at bottom,
+    rgba(255, 50, 50, 1) 0%,
+    rgba(255, 50, 50, 0.3) 0%,
+    rgba(253, 255, 137, 0) 50%
+  );
+  border-bottom: 1px solid rgba(186, 60, 52, 0.9);
+  font-family: "Dancing Script", cursive;
   font-size: 100px;
   font-weight: 300;
   letter-spacing: 1px;
   text-align: center;
   text-shadow: -4px -4px 10px rgba(186, 60, 52, 0.9),
-                4px -4px 10px rgba(186, 60, 52, 0.9),
-               -4px  4px 10px rgba(186, 60, 52, 0.9),
-                4px  4px 10px rgba(186, 60, 52, 0.9);
+    4px -4px 10px rgba(186, 60, 52, 0.9), -4px 4px 10px rgba(186, 60, 52, 0.9),
+    4px 4px 10px rgba(186, 60, 52, 0.9);
   white-space: nowrap;
 }
 .title a,
 .title a:visited {
-  -webkit-text-stroke: 1px rgba(202, 222, 162, 1.0);
-  color: #FFF;
+  -webkit-text-stroke: 1px rgba(202, 222, 162, 1);
+  color: #fff;
   text-decoration: none;
 }
 nav {
@@ -101,7 +112,7 @@ nav {
 }
 nav a,
 nav a:visited {
-  color: #FFF;
+  color: #fff;
   display: inline-block;
   padding: 10px 25px;
   text-align: center;
@@ -112,41 +123,46 @@ nav a:last-child {
 }
 nav a:hover {
   font-weight: bold;
-  background: radial-gradient(ellipse at center, rgba(255,50,50,1) 0%,rgba(255,50,50,0.3) 0%,rgba(253,255,137,0) 100%);
+  background: radial-gradient(
+    ellipse at center,
+    rgba(255, 50, 50, 1) 0%,
+    rgba(255, 50, 50, 0.3) 0%,
+    rgba(253, 255, 137, 0) 100%
+  );
   -webkit-text-stroke: 1px rgba(202, 222, 162, 0.2);
 }
 nav a.nuxt-link-active:not(.home) {
   font-weight: bold;
-  background: rgba(255,50,50,0.3);
-  border-left: 1px solid rgba(255,50,50,0.3);
-  border-right: 1px solid rgba(255,50,50,0.3);
+  background: rgba(255, 50, 50, 0.3);
+  border-left: 1px solid rgba(255, 50, 50, 0.3);
+  border-right: 1px solid rgba(255, 50, 50, 0.3);
   -webkit-text-stroke: 1px rgba(202, 222, 162, 0.2);
 }
 
 h2 {
   font-weight: 300;
   font-size: 42px;
-  color: #FFF;
+  color: #fff;
   padding-bottom: 15px;
   text-align: center;
 }
 h3 {
   font-weight: 300;
   font-size: 24px;
-  color: #FFF;
+  color: #fff;
   padding-top: 15px;
   text-align: center;
 }
 h4 {
   font-weight: 300;
   font-size: 20px;
-  color: #FFF;
+  color: #fff;
   text-align: center;
 }
 h5 {
   font-weight: 300;
   font-size: 16px;
-  color: #AAA;
+  color: #aaa;
 }
 p {
   margin-bottom: 10px;
@@ -180,31 +196,37 @@ a:visited {
 }
 
 .daysLeftCircle {
-  box-shadow: 0 10px 50px rgba(111, 150, 60,  0.7);
-  border-bottom: 1px solid rgba(111, 150, 60,  0.9);
+  box-shadow: 0 10px 50px rgba(111, 150, 60, 0.7);
+  border-bottom: 1px solid rgba(111, 150, 60, 0.9);
   border-radius: 100px;
-  border-top:    1px solid rgba(202, 222, 162, 0.9);
-  color: #FFF;
-  font-family: 'Dancing Script', cursive;
+  border-top: 1px solid rgba(202, 222, 162, 0.9);
+  color: #fff;
+  font-family: "Dancing Script", cursive;
   font-weight: 900;
   height: 100%;
   letter-spacing: 1px;
   padding-top: 20%;
   text-align: center;
   text-shadow: -4px -4px 10px rgba(111, 150, 60, 0.9),
-                4px -4px 10px rgba(111, 150, 60, 0.9),
-               -4px  4px 10px rgba(111, 150, 60, 0.9),
-                4px  4px 10px rgba(111, 150, 60, 0.9);
+    4px -4px 10px rgba(111, 150, 60, 0.9), -4px 4px 10px rgba(111, 150, 60, 0.9),
+    4px 4px 10px rgba(111, 150, 60, 0.9);
   width: 100%;
 }
 .daysLeftCircle .daysLeftNumber {
-  background: radial-gradient(ellipse at bottom, rgba(255,50,50,1) 0%,rgba(111,150,60,0.3) 0%, rgba(0,0,0,0) 50%);
+  background: radial-gradient(
+    ellipse at bottom,
+    rgba(255, 50, 50, 1) 0%,
+    rgba(111, 150, 60, 0.3) 0%,
+    rgba(0, 0, 0, 0) 50%
+  );
   font-size: 3em;
   line-height: 90%;
 }
 .daysLeftCircle .daysLeftText {
+  clear: both;
   font-size: 1.2em;
   line-height: 80%;
+  width: 100px;
 }
 
 .leftAligned .bspotImage {
@@ -222,12 +244,11 @@ a:visited {
   max-width: 200px;
 }
 .rightAligned {
-
 }
 
 /* Home */
 .aspot {
-  background-image: url('https://s3.amazonaws.com/eschnetzer/images/lakescape.jpg');
+  background-image: url("https://s3.amazonaws.com/eschnetzer/images/lakescape.jpg");
   background-position: center;
   background-size: cover;
   height: 419px;
@@ -242,7 +263,7 @@ a:visited {
 }
 .partyMember {
   display: inline-block;
-  width: 200px
+  width: 200px;
 }
 
 /* Photos */
@@ -278,7 +299,6 @@ a:visited {
 .registry img {
   margin-bottom: 20px;
 }
-
 
 /* Mobile overrides */
 @media only screen and (max-width: 600px) {
