@@ -46,6 +46,12 @@
     </p>
     <p>1 pm</p>
 
+    <p>
+      Need something to do in between the cermony and the cocktail hour?
+      <br />
+      Here are some fun <nuxt-link to="/things-to-do">things to do</nuxt-link> nearby the wedding reception.
+    </p>
+
     <h3>Cocktail Hour</h3>
     <p>On the lawn at <a href="https://goo.gl/maps/HCTWUACcSDKKUgNP8" target="_blank">Akwa Marina Yacht Club</a> <br /> <a href="https://goo.gl/maps/HCTWUACcSDKKUgNP8" target="_blank">95 Centenary Ave, Laconia, NH 03246</a></p>
     <p>4 pm</p>
