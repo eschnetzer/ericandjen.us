@@ -32,7 +32,7 @@ export default {
           group: `Matron of Honor`,
           members: [
             {
-              name: `Beth Wheeler`,
+              name: `Beth Lynch`,
               description: `Childhood Friend, Locker Buddy, Partner In Crime`,
               backstory: null
             }
