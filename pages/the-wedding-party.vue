@@ -92,13 +92,18 @@ export default {
           group: `Groomsmen`,
           members: [
             {
-              name: `Daniel Giroux`,
-              description: `Childhood Friend`,
+              name: `Fred Cain`,
+              description: `Brother of the Bride`,
               backstory: null
             },
             {
               name: `Brian Corn`,
               description: `Former Roommate, Fellow Ski Bum`,
+              backstory: null
+            },
+            {
+              name: `Daniel Giroux`,
+              description: `Childhood Friend`,
               backstory: null
             },
             {
@@ -114,11 +119,6 @@ export default {
             {
               name: `Jonathan Schulz`,
               description: `College Friend`,
-              backstory: null
-            },
-            {
-              name: `Fred Cain`,
-              description: `Brother of the Bride`,
               backstory: null
             }
           ]
