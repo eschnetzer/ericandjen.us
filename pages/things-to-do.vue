@@ -7,6 +7,13 @@
       <p>If you need to find something to do in between our <nuxt-link to="/schedule">busy schedule</nuxt-link>, consider enjoying the beautiful scenery all around you! Summer is a great time to explore the Lakes Region! Here are a few spots you might want to check out while you’re in NH.</p>
 
       <h3>
+        <a target="_blank" href="https://www.fairsandfestivals.net/events/details/2019-wolfeboro-christmas-in-july-craft-fair">
+          Wolfeboro Christmas in July Craft Fair
+        </a>
+      </h3>
+      <h4>An array of exhibitors displaying and selling American made arts and crafts</h4>
+
+      <h3>
         <a target="_blank" href="http://www.nhstateparks.org/">
           Ellacoya State Park
         </a>
